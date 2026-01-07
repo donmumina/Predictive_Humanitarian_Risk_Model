@@ -1,0 +1,7 @@
+# Ignore datasets
+*.csv
+*.xlsx
+*.xls
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
