@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data outputs
+outputs/
+archive_unused/
+*.csv
+
+# Allow specific CSVs needed for reproducibility
+!rain_state_month_features.csv
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+{
+  "panel_name": "panel_ipc_price_rainfall_conflict_v1.csv",
+  "states": 18,
+  "month_min": "2019-06-01 00:00:00",
+  "month_max": "2026-02-01 00:00:00",
+  "conflict_max_month_in_source": "2025-11-01",
+  "conflict_zero_imputation_rule": "Inside conflict window (<=2025-11), missing months treated as 0 events; outside window kept NaN",
+  "rainfall_z_issue": "rain_anomaly_z mostly missing upstream; computed rain_anomaly_z_safe = rain_anomaly / baseline_std with safe handling"
+}
