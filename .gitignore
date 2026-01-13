@@ -1,23 +1,47 @@
-# Python
+# --- Python / env ---
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.so
 .env
 .venv/
 venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
 
-# Jupyter
+# --- Jupyter ---
 .ipynb_checkpoints/
+*.nbconvert.ipynb
+**/.ipynb_checkpoints/
 
-# Large data outputs
-outputs/
-archive_unused/
-*.csv
-
-# Allow specific CSVs needed for reproducibility
-!rain_state_month_features.csv
-
-# OS files
+# --- OS files ---
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# --- Large / generated data outputs ---
+outputs/
+archive_unused/
+*.zip
+*.parquet
+*.feather
+
+# If you keep large CSVs locally but not in Git:
+*.csv
+
+# If you DO want to keep some CSVs tracked, remove the line above and instead ignore only the big ones:
+# rain_state_month_features.csv
+# GEDEVent_clean.csv
+
+# --- Images (optional) ---
+*.png
+*.jpg
+*.jpeg
+
+# --- Logs / temp ---
+*.log
+*.tmp
