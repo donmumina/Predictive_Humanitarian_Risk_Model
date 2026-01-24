@@ -1,3 +1,0 @@
-ipc3plus_delta_next_month
-ipc3plus_pct_model_next
-ipc3plus_worsen_next_month_2pp
