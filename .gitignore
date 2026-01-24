@@ -1,47 +1,34 @@
-# --- Python / env ---
+# ---- Ignore generated folders / outputs ----
+artifacts/
+data/
+dtm_2025_xlsx/
+geo_by_date/
+geo_by_date_intensity/
+maps_out/
+maps_out_hotspots/
+maps_out_idps_raw/
+maps_out_intensity_global/
+sdn_admin_boundaries_unzipped/
+tableau_outputs/
+Predictive_Humanitarian_Risk_Model-main/
+
+# ---- Ignore large/generated file formats ----
+*.csv
+*.zip
+*.gpkg
+*.geojson
+*.twb
+*.xlsx
+*.png
+*.pdf
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Python cache / environments ----
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-.env
+*.pyc
 .venv/
 venv/
-ENV/
 env/
-*.egg-info/
-dist/
-build/
-
-# --- Jupyter ---
-.ipynb_checkpoints/
-*.nbconvert.ipynb
-**/.ipynb_checkpoints/
-
-# --- OS files ---
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# --- Large / generated data outputs ---
-outputs/
-archive_unused/
-*.zip
-*.parquet
-*.feather
-
-# If you keep large CSVs locally but not in Git:
-*.csv
-
-# If you DO want to keep some CSVs tracked, remove the line above and instead ignore only the big ones:
-# rain_state_month_features.csv
-# GEDEVent_clean.csv
-
-# --- Images (optional) ---
-*.png
-*.jpg
-*.jpeg
-
-# --- Logs / temp ---
-*.log
-*.tmp
+Untitled.ipynb
